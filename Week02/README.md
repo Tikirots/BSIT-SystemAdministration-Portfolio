@@ -7,18 +7,18 @@ ITEP 414 - System Administration and Maintenance
 
 ## Project Overview
 
-This project proposes the initial IT infrastructure for **NovaTech Startup Solutions**, a fictional software development startup. As Junior System Administrator, I planned the workstations, shared services, software, network, security and backup arrangements before purchasing or deployment. The report includes all eight required project sections.
+For Week 2, I planned the IT setup of **NovaTech Startup Solutions**, a fictional software startup with 20 employees. I took the role of a Junior System Administrator and chose the computers, software and network equipment the company would need. The report also covers staff access, backups and the IT roles responsible for keeping everything running.
 
 ## Learning Objectives
 
-- Explain the responsibilities of system administration and how support roles cooperate.
-- Translate business requirements into justified hardware, software and network inventories.
-- Design a logical network with appropriate segmentation, connectivity and capacity.
-- Document technical decisions and communicate them through a professional GitHub portfolio.
+- Understand what the four system administration roles do and how they work together.
+- Choose equipment and software based on the employees who will use them.
+- Draw a network with clear connections and separate access for departments and guests.
+- Explain the design through inventories, a report and GitHub documentation.
 
 ## Company Scenario
 
-NovaTech starts with **20 employees on one office floor**, with no computers, server, network, internet infrastructure or security policies. The fictional location is Calamba City, Laguna. The organizational structure and complete company profile are in Part 1 of the report.
+NovaTech has **20 employees on one office floor** in a fictional office in Calamba City, Laguna. It is starting from scratch, so computers, a server, internet access and security rules all need to be planned. Part 1 of the report contains the company profile and organizational structure.
 
 | Department | Employees | Workstations |
 | --- | --- | --- |
@@ -42,7 +42,7 @@ NovaTech starts with **20 employees on one office floor**, with no computers, se
 | External backup drives | 2 | Encrypted rotation with one off-site |
 | Monitors | 16 | 14 primary and two extra IT displays |
 
-The inventories are a purchasing plan, not evidence that equipment has been acquired. Part 2 provides specifications and selection rationale.
+This is the equipment I would include in the initial setup. Part 2 explains the specifications and why each item is needed.
 
 ## Software Inventory Summary
 
@@ -60,7 +60,7 @@ The inventories are a purchasing plan, not evidence that equipment has been acqu
 | AnyDesk | Authorized remote support by IT; no personal-use license for company support. [5] Paid commercial license. |
 | 7-Zip | Archive and extract files for routine document and backup transfers. Open source; component licenses apply. |
 
-Exact installed builds will be recorded during deployment. AnyDesk requires a commercial license for work use; the optional VirtualBox Extension Pack is excluded. Windows device licenses and Microsoft 365 subscriptions are budgeted separately. See [sources 3-5](references/Sources.md).
+Record the exact software builds when installing them. The budget needs separate Windows device licenses, Microsoft 365 user subscriptions and a commercial AnyDesk license. This plan uses the VirtualBox base package without the optional Extension Pack. See [sources 3-5](references/Sources.md).
 
 ## Network Inventory Summary
 
@@ -76,27 +76,27 @@ Internet → ISP modem/ONT → edge router → firewall → SW1 core switch. SW1
 
 ## Technologies Used
 
-Draw.io-compatible diagram XML, Markdown, Git/GitHub, PDF documentation, Windows 11 Pro, Ubuntu Server, VLANs, VPN, NAS backups and business endpoint management. The operating systems and services are proposed deployment technologies; this activity documents their design.
+The portfolio uses a Draw.io diagram, Markdown, Git/GitHub and a PDF report. The planned setup uses Windows 11 Pro, Ubuntu Server, VLANs, a VPN, NAS backups and centrally managed endpoint protection.
 
 ## Challenges Encountered
 
-The main challenge was turning an equipment list into a logical diagram. Each shared device needs a clear switch connection, and inventory quantities must match the drawing. Another challenge was separating physical connectivity from VLAN access policy and accounting for software licenses, backup recovery and future growth.
+The network diagram took the most thought. I had to show where each device connects and check that the drawing matches the inventory. I also had to separate two questions: how a device connects to the network, and which resources it should be allowed to access. Counting ports, checking licenses and planning restores helped make the equipment list more useful.
 
 ## Reflection
 
-Before this project, I thought being a System Administrator was mostly about fixing computers when something goes wrong. Planning the infrastructure for NovaTech helped me understand that the work begins much earlier. A system administrator needs to identify what employees do, choose suitable equipment, organize access, and prepare ways to recover important information. A useful plan explains why each decision supports the business instead of simply listing products.
+I used to think that a System Administrator mainly fixes computers and installs software. Working on this plan for NovaTech showed me how much needs to be decided before any equipment is bought. The company has 20 employees, but their needs are different. The plan has to account for the work they do, the information they use, and what happens if a device or service fails.
 
-Preparing the inventories helped me connect equipment choices to actual users. The IT, HR, and Finance departments need desktop computers because most of their work takes place at fixed desks. Sales employees need laptops because their work can involve client visits. I also learned that shared equipment, such as printers, switches, storage, and UPS units, needs to be counted and justified. The quantities in the report should agree with the diagram so that another person can understand what must be purchased.
+The hardware inventory made those differences easier to understand. IT, HR, and Finance can use desktops because they mainly work at their desks. Sales needs laptops for work that may involve visiting clients. Shared equipment also needs a reason for being included. A NAS, backup drives, and UPS units may be less noticeable than computers, but they help protect the company's files and keep important services available.
 
-The most challenging part was organizing the network diagram. Choosing labels was easier than deciding how devices should connect and how departments should be separated. I needed to distinguish a physical connection from a security boundary. A switch connects devices, while VLANs and firewall rules control which groups can communicate. Clear connections and consistent labels make the design easier to explain and reduce confusion during deployment.
+The network diagram was the hardest part for me. Listing devices was straightforward; showing how they connect took more thought. The drawing also had to agree with the inventory. For example, the 14 desktops use wired connections, while the six Sales laptops use Wi-Fi. I needed to understand that connecting devices to a switch does not automatically mean every department should have access to the others. That is where the VLANs and firewall rules come in.
 
-Planning is important because mistakes become more expensive after equipment is purchased and installed. Missing backup storage, insufficient network ports, or unclear software licenses can delay work and create unexpected costs. I also realized that having a backup is only useful when it can be restored. A recovery plan should identify who checks backup failures and how often restoration is tested.
+This activity also changed how I look at backups. Keeping another copy of a file is only part of the job. Someone still has to check whether the backup ran and whether the files can actually be restored. Software licenses and spare network ports also need attention early, since overlooking them can lead to extra costs after installation.
 
-This project will help me become a better System Administrator by encouraging me to document decisions, check assumptions, and consider maintenance before deployment. Researching the four IT roles also showed me why communication matters. Helpdesk, network, Linux, and cloud responsibilities are connected even when one person performs several of them. I still need more practical experience configuring and testing these systems, but this activity gives me a clearer process to follow when planning an organization's IT environment.
+Planning gives the company something to check before spending money. It also gives the people setting up the network a clear starting point. For me, this project is practice in explaining my choices instead of just naming equipment. Learning about the helpdesk, network, Linux, and cloud roles showed me how their work connects during a problem. I still need hands-on experience configuring these systems, but I now have a better idea of what to check and document before deployment.
 
 ## References
 
-The report uses numbered citations for IT-role research, product licensing, backup and authentication guidance. Full titles, source links and their relevance are in [references/Sources.md](references/Sources.md).
+The numbered citations in the report point to the sources used for IT roles, licensing, backups and password policy. The full list is in [references/Sources.md](references/Sources.md).
 
 ## Submission Checklist
 
@@ -112,6 +112,6 @@ The report uses numbered citations for IT-role research, product licensing, back
 - [ ] Publish the LinkedIn post and paste its permalink below
 - [ ] Submit the required files or repository link in the LMS
 
-**LinkedIn post:** Pending publication. A [ready-to-review draft](LinkedIn_Post_Draft.md) is included; attach the [diagram PNG](diagrams/NovaTech_Network_Diagram.png).
+**LinkedIn post:** Not published. The [draft](LinkedIn_Post_Draft.md) is saved with the project.
 
-**LMS submission:** Pending the student's submission.
+**LMS submission:** Not yet submitted.

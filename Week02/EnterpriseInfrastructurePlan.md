@@ -110,97 +110,97 @@ SW1 uses 7 ports; SW2 uses 16. The two APs serve the same six Sales laptops. The
 
 ### Helpdesk Technician
 
-The helpdesk is the first contact for user incidents. At NovaTech, this role restores everyday productivity and records information needed for escalation. The support tasks below apply entry-level troubleshooting principles to the startup scenario. [6]
+Employees usually contact the helpdesk first when something stops working. At NovaTech, this could be a login problem, a printer error or a laptop that cannot connect to Wi-Fi. The helpdesk checks the problem and passes it on with useful details if another administrator is needed. [6]
 
-**Responsibilities:** Record and prioritize tickets; install approved workstation software; troubleshoot login, printing and connectivity issues; prepare devices for new staff; verify identity before resets; escalate unresolved incidents with logs and actions already tried.
+**Responsibilities:** Log support requests and decide which need attention first. Set up employee devices, install approved software and check common account, printer and connection problems. Verify the employee's identity before a password reset. Record the checks already done before escalating a ticket.
 
-**Skills:** Clear communication, patient questioning, Windows troubleshooting, hardware basics, safe remote support, basic network checks and accurate documentation.
+**Skills:** Listening, clear explanations, Windows troubleshooting, basic hardware and networking knowledge, safe remote support and careful ticket notes.
 
-**Common tools:** A ticket queue such as Jira Service Management; licensed AnyDesk; Windows Event Viewer; Intune; ping and ipconfig. Tool choices are proposed for this company.
+**Common tools:** A ticketing system such as Jira Service Management, licensed AnyDesk, Windows Event Viewer, Intune, ping and ipconfig.
 
-**Certifications:** CompTIA A+ is a foundational support certification; the Google IT Support Certificate is another entry-level learning pathway. These are examples for career development, not credentials claimed by the author. [6]
+**Certifications:** CompTIA A+ is one option for building support skills. The Google IT Support Certificate is another starting point for troubleshooting, operating systems and customer support. [6]
 
 ### Network Administrator
 
-The network administrator keeps connectivity available and secure. Cisco describes this work as installing, maintaining, monitoring and troubleshooting organizational networks. [7]
+The Network Administrator looks after the connections between employees, shared devices and the internet. Cisco describes the role as installing, maintaining, monitoring and troubleshooting networks. At NovaTech, the switches, firewall and Wi-Fi would be part of this work. [7]
 
-**Responsibilities:** Configure router, firewall, switches and APs; maintain VLANs, DHCP scopes and DNS forwarding; apply access rules; monitor uplinks; save device configurations; troubleshoot wired, wireless and VPN connectivity.
+**Responsibilities:** Set up the router, firewall, switches and APs. Maintain VLANs, DHCP settings, DNS forwarding and access rules. Check link failures and Wi-Fi problems, monitor the network and keep backup copies of device configurations.
 
-**Skills:** TCP/IP, subnetting, VLAN tagging, routing, firewall policy, Wi-Fi coverage analysis and systematic fault isolation.
+**Skills:** TCP/IP, subnetting, VLANs, routing, firewall rules, Wi-Fi planning and step-by-step troubleshooting.
 
-**Common tools:** Device management interfaces and CLI; Wireshark for packet analysis; an SNMP monitoring system; Cisco Packet Tracer for learning and design exercises.
+**Common tools:** Device web interfaces and command lines, Wireshark for packet checks, an SNMP monitoring tool and Cisco Packet Tracer for practice and design exercises.
 
-**Certifications:** Cisco CCNA for networking fundamentals, IP connectivity, security and automation knowledge. CompTIA Network+ is another possible foundation. [8]
+**Certifications:** Cisco CCNA covers network fundamentals, IP connectivity, security and automation. CompTIA Network+ is another foundation to consider. [8]
 
 ### Linux System Administrator
 
-The Linux administrator operates NovaTech's Ubuntu server and protects its data. Ubuntu documentation and Red Hat's RHCSA skill areas support the proposed focus on services, users, storage and security. [1,9]
+The Linux System Administrator would maintain NovaTech's Ubuntu server, including shared files, user access and internal services. Ubuntu documentation and the RHCSA skill areas cover the user, storage, service and security tasks needed here. [1,9]
 
-**Responsibilities:** Maintain users and groups; apply updates; manage Samba permissions, Git access and internal services; monitor disk space and logs; automate scheduled backups; test restores; maintain recovery documentation.
+**Responsibilities:** Create users and groups, set file permissions and maintain Samba and Git access. Apply updates, check logs and storage space, schedule backups and test restores. Keep recovery instructions that another IT staff member can follow.
 
-**Skills:** Linux command-line work, Bash scripting, file permissions, service management, SSH, storage concepts and backup troubleshooting.
+**Skills:** Linux commands, Bash scripting, file permissions, SSH, service management, storage and backup troubleshooting.
 
-**Common tools:** OpenSSH, Bash, systemctl, journalctl, apt, rsync and systemd timers. Protect backup credentials separately from ordinary user accounts.
+**Common tools:** OpenSSH, Bash, systemctl, journalctl, apt, rsync and systemd timers. Backup credentials should be kept separate from ordinary employee accounts.
 
-**Certifications:** Red Hat Certified System Administrator (RHCSA) develops practical Linux administration skills. RHCSA is assessed on Red Hat Enterprise Linux, while the proposed company server runs Ubuntu. [9]
+**Certifications:** Red Hat Certified System Administrator (RHCSA) tests practical Linux administration. Its exam uses Red Hat Enterprise Linux, so Ubuntu-specific commands and tools still need separate practice. [9]
 
 ### Cloud Administrator
 
-The cloud administrator manages hosted identities, storage, access and cost controls. Microsoft's Azure Administrator role covers compute, networking, storage, identity, security and governance. [10]
+The Cloud Administrator handles the company's hosted accounts and services. For this plan, that starts with Microsoft 365 and could later include cloud backup or hosting. Microsoft's Azure Administrator role also covers compute, networks, storage, identity and governance. [10]
 
-**Responsibilities:** Maintain business cloud accounts; apply least-privilege access and MFA; monitor backup storage and recovery; control subscriptions and spending; review service health; coordinate future migration with the Linux and network administrators.
+**Responsibilities:** Manage cloud accounts and access, require MFA and review service health. Check backup storage, subscriptions and spending. Work with the Linux and network administrators when adding hosted services or moving an existing service to the cloud.
 
-**Skills:** Cloud service models, identity and access management, virtual networking, backup retention, resource tagging, cost monitoring and incident coordination.
+**Skills:** Cloud service models, account permissions, virtual networks, backup retention, cost monitoring and incident coordination.
 
-**Common tools:** Microsoft 365 admin center and Entra admin center for planned subscriptions; Azure portal and Azure CLI if Azure resources are approved; service monitoring and budget alerts.
+**Common tools:** Microsoft 365 admin center and Entra admin center for the planned subscriptions. Azure portal, Azure CLI and budget alerts would be used if Azure resources are added.
 
-**Certifications:** Microsoft Certified: Azure Administrator Associate is relevant to administering Azure infrastructure. It does not replace product-specific training for Microsoft 365 administration. [10]
+**Certifications:** Microsoft Certified: Azure Administrator Associate is relevant to Azure infrastructure. Microsoft 365 administration would still require training in its own products and tools. [10]
 
 ### Collaboration
 
-When an employee cannot open a shared folder, the Helpdesk Technician records the symptoms, checks the account and tests the connection. If the network path or VLAN rule is responsible, the Network Administrator investigates; if the share or file permissions are responsible, the Linux System Administrator restores access. The Cloud Administrator checks cloud identity, backup availability or a hosted-service outage when those services are involved. All four use the same incident record, agree on ownership, document changes and verify the result with the employee. In a 20-person startup, these responsibilities may be combined among IT staff or supported by a service provider rather than requiring four additional employees.
+For example, an employee may report that a shared folder will not open. The Helpdesk Technician first checks the account and connection, then records the results in the ticket. The Network Administrator checks the network path or VLAN rule, while the Linux System Administrator checks the share and file permissions. The Cloud Administrator joins in if cloud identity or a hosted service is involved. They keep their notes in the same ticket and confirm with the employee that access works again. With only five IT employees at NovaTech, one person may handle more than one of these roles; the responsibilities still need to be clear.
 
 ## Part 7 Infrastructure Recommendations
 
 ### Internet provider
 
-Request site-specific business-fiber proposals from PLDT Enterprise and Converge Business, starting with a proposed 300 Mbps service. Compare verified coverage, upload speed, uptime commitments, repair response, installation cost and static-IP options. No provider, price, static IP or service-level agreement is assumed confirmed. Schedule large backups outside busy hours and add a separate mobile failover service if downtime would interrupt client work.
+I would ask PLDT Enterprise and Converge Business for business-fiber proposals for the office location. A 300 Mbps connection is a starting point for the plan, but the choice should depend on actual coverage, upload speed, repair response, uptime commitments and cost. A static IP is worth checking if a service needs one. Large backups can run after office hours. A separate mobile connection can provide failover if the main line goes down. Coverage, prices and service terms still need confirmation.
 
 ### Server specifications
 
-Start with an 8-core CPU, 32 GB ECC RAM with an upgrade path, two 480 GB SSDs mirrored for the OS and two 4 TB disks mirrored for data. Use Ubuntu Server 24.04 LTS with updates, least-privilege groups and monitored storage. Its published support lifecycle supports a stable deployment choice. These are planning assumptions for file sharing, Git and small internal services, to be validated with workload measurements. Disk mirroring improves availability but does not replace backups. [1,2]
+An 8-core CPU and 32 GB ECC RAM should be a reasonable starting point for shared files, Git and small internal applications. I would use two 480 GB SSDs in a mirror for the OS and two 4 TB disks in a mirror for data, with room to upgrade memory. Ubuntu Server 24.04 LTS offers a stable support lifecycle. Storage and workload measurements should guide later upgrades. Mirrored disks help when one drive fails, but they do not replace a backup. [1,2]
 
 ### Backup strategy
 
-Keep production data on the server, a nightly versioned backup on the NAS and a weekly encrypted copy on rotating USB drives, with one drive disconnected off-site. This provides multiple copies across network storage and removable media. Add an encrypted cloud copy of critical data for shorter off-site recovery gaps. Proposed targets are a 24-hour recovery point and an 8-hour recovery time, subject to a restore trial; off-site recovery may lose up to one week without cloud replication. Retain 30 daily and 12 monthly versions where capacity permits, review failures daily and test a sample restore monthly and full recovery quarterly. [11]
+Keep the working files on the server and make a versioned backup to the NAS each night. Copy them weekly to encrypted rotating USB drives, keeping one disconnected and off-site. An encrypted cloud copy of critical files would reduce the gap between off-site backups. The initial targets are to lose no more than 24 hours of data and restore service within 8 hours; a restore trial must show whether these targets are realistic. Without the cloud copy, an off-site recovery could lose up to one week. Keep 30 daily and 12 monthly versions where storage allows. Check failures daily, restore sample files monthly and test full recovery quarterly. [11]
 
 ### Security recommendations
 
-Enforce VLAN boundaries at the firewall and use the permissions listed in Part 4. Permit SSH only from approved IT administration devices; use keys and disable direct root login. Require VPN with MFA for remote administrative access; do not publish SSH or file shares directly to the internet. Apply device encryption, patching, least privilege, a locked equipment area and configuration backups. Inspect encrypted traffic only under an approved company policy.
+Use the VLAN rules in Part 4 so employees can reach the files and printers they need without gaining access to every department. Allow SSH administration only from approved IT devices, use keys and disable direct root login. Remote administrators should connect through a VPN with MFA. Keep SSH and file shares off the public internet. Encrypt employee devices, apply updates, limit administrator rights, lock the equipment area and back up device configurations. Any inspection of encrypted traffic needs an approved company policy.
 
 ### Antivirus
 
-Keep Microsoft Defender Antivirus active on every Windows endpoint. Budget Microsoft 365 Business Premium for 20 users to provide the proposed Office apps, Intune management and Defender for Business capabilities. Enroll devices and test alerts; built-in antivirus alone does not establish centralized management. Review detections, isolate affected devices and document recovery actions. [3]
+Keep Microsoft Defender Antivirus active on all Windows workstations. This plan includes Microsoft 365 Business Premium for 20 users, covering Office apps, Intune management and Defender for Business. IT still needs to enroll the devices and test whether alerts reach the administrator. When a threat is detected, isolate the device, investigate the cause and record the recovery steps. [3]
 
 ### Password policy
 
-Adopt unique passphrases of at least 15 characters, MFA for email, cloud administration and VPN, and a company password manager. Block known compromised passwords; avoid routine forced changes and arbitrary character-composition rules. Change credentials after suspected compromise, protect recovery methods and separate ordinary from administrator accounts. This company policy is informed by NIST guidance and must be implemented within each product's supported controls. [12]
+Require unique passphrases of at least 15 characters and MFA for company email, cloud administration and VPN access. A company password manager can help employees avoid reusing passwords. Block known compromised passwords and change credentials when compromise is suspected. Avoid routine forced changes and arbitrary character rules. Keep administrator accounts separate from everyday accounts and protect recovery methods. These recommendations follow NIST guidance and need to be configured within each product's available controls. [12]
 
 ### Expansion plan
 
-The initial core switch uses 7 ports and the access switch uses 16, leaving 25 of 48 ports unused. Each of 14 desktops has one cable run; six laptops use Wi-Fi. The 20 horizontal runs comprise 14 desktops, two printers, two APs and two spare outlets. Add staff only after checking PoE capacity, Wi-Fi load, patch-panel capacity and server utilization. Add a patch panel, access switch or AP when measurements justify it. Reassess redundancy and cloud hosting as availability needs grow.
+SW1 uses 7 ports and SW2 uses 16, leaving 25 of the 48 ports free. The 14 desktops use cable connections and the six Sales laptops use Wi-Fi. The 20 fixed cable runs cover the desktops, two printers, two APs and two spare outlets. Before adding staff, check the PoE budget, Wi-Fi load, patch-panel capacity and server use. Add another panel, switch or AP when those checks show it is needed. As the company takes on more work, review whether a second connection, more resilient equipment or cloud hosting is worth the cost.
 
 ## Part 8 Personal Reflection
 
-Before this project, I thought being a System Administrator was mostly about fixing computers when something goes wrong. Planning the infrastructure for NovaTech helped me understand that the work begins much earlier. A system administrator needs to identify what employees do, choose suitable equipment, organize access, and prepare ways to recover important information. A useful plan explains why each decision supports the business instead of simply listing products.
+I used to think that a System Administrator mainly fixes computers and installs software. Working on this plan for NovaTech showed me how much needs to be decided before any equipment is bought. The company has 20 employees, but their needs are different. The plan has to account for the work they do, the information they use, and what happens if a device or service fails.
 
-Preparing the inventories helped me connect equipment choices to actual users. The IT, HR, and Finance departments need desktop computers because most of their work takes place at fixed desks. Sales employees need laptops because their work can involve client visits. I also learned that shared equipment, such as printers, switches, storage, and UPS units, needs to be counted and justified. The quantities in the report should agree with the diagram so that another person can understand what must be purchased.
+The hardware inventory made those differences easier to understand. IT, HR, and Finance can use desktops because they mainly work at their desks. Sales needs laptops for work that may involve visiting clients. Shared equipment also needs a reason for being included. A NAS, backup drives, and UPS units may be less noticeable than computers, but they help protect the company's files and keep important services available.
 
-The most challenging part was organizing the network diagram. Choosing labels was easier than deciding how devices should connect and how departments should be separated. I needed to distinguish a physical connection from a security boundary. A switch connects devices, while VLANs and firewall rules control which groups can communicate. Clear connections and consistent labels make the design easier to explain and reduce confusion during deployment.
+The network diagram was the hardest part for me. Listing devices was straightforward; showing how they connect took more thought. The drawing also had to agree with the inventory. For example, the 14 desktops use wired connections, while the six Sales laptops use Wi-Fi. I needed to understand that connecting devices to a switch does not automatically mean every department should have access to the others. That is where the VLANs and firewall rules come in.
 
-Planning is important because mistakes become more expensive after equipment is purchased and installed. Missing backup storage, insufficient network ports, or unclear software licenses can delay work and create unexpected costs. I also realized that having a backup is only useful when it can be restored. A recovery plan should identify who checks backup failures and how often restoration is tested.
+This activity also changed how I look at backups. Keeping another copy of a file is only part of the job. Someone still has to check whether the backup ran and whether the files can actually be restored. Software licenses and spare network ports also need attention early, since overlooking them can lead to extra costs after installation.
 
-This project will help me become a better System Administrator by encouraging me to document decisions, check assumptions, and consider maintenance before deployment. Researching the four IT roles also showed me why communication matters. Helpdesk, network, Linux, and cloud responsibilities are connected even when one person performs several of them. I still need more practical experience configuring and testing these systems, but this activity gives me a clearer process to follow when planning an organization's IT environment.
+Planning gives the company something to check before spending money. It also gives the people setting up the network a clear starting point. For me, this project is practice in explaining my choices instead of just naming equipment. Learning about the helpdesk, network, Linux, and cloud roles showed me how their work connects during a problem. I still need hands-on experience configuring these systems, but I now have a better idea of what to check and document before deployment.
 
 ## References
 
