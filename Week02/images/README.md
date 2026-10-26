@@ -1,3 +1,5 @@
 # Project images
 
-[Hardware inventory preview](Hardware_Inventory.png) is an image of Part 2 of the report. The main diagram is kept in [diagrams](../diagrams/) to avoid duplicate diagram versions.
+[Hardware inventory preview](Hardware_Inventory.png) shows Part 2 of the report. Read the [full inventory in the PDF](../EnterpriseInfrastructurePlan.pdf) for the equipment specifications and quantities.
+
+The network diagram is in [diagrams](../diagrams/).
