@@ -1,4 +1,4 @@
-# Week 2 Enterprise Infrastructure Planning
+# Week 2 - Enterprise Infrastructure Planning
 
 **Jaymark Viriña, BSIT**
 ITEP 414 - System Administration and Maintenance

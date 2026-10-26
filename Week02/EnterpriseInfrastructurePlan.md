@@ -8,6 +8,10 @@ ITEP 414 - System Administration and Maintenance | Week 2
 
 25 October 2026
 
+## Project Overview
+
+This plan covers the equipment, software, network and support needs of a fictional startup with 20 employees. The PDF and this text version contain the eight project sections.
+
 ## Part 1 Company Profile
 
 **Company name:** NovaTech Startup Solutions

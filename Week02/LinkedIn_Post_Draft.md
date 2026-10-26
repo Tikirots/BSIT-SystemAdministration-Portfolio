@@ -1,4 +1,4 @@
-# LinkedIn Post Draft
+# Week 2 LinkedIn Draft
 
 Attach `diagrams/NovaTech_Network_Diagram.png` or `images/Hardware_Inventory.png` as the project image. Review the wording before publishing.
 
