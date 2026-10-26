@@ -1,6 +1,6 @@
 # Sources
 
-Source numbering matches the report. Access date: 25 October 2026.
+The numbers below match the citations in the report. Each entry includes the source link and what it was used for. Access date: 25 October 2026.
 
 1. **Canonical. [Ubuntu Server documentation](https://ubuntu.com/server/docs/).** Linux server services, users, storage and administration.
 
